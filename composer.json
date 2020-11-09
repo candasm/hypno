@@ -1,6 +1,6 @@
 {
   "name": "candasm/hypno",
-  "description": "Delay execution commands package",
+  "description": "Delay execution commands package which covers sleep, usleep, time_nanosleep and time_sleep_until functions. This package useful for unit tests.",
   "keywords": [
     "sleep",
     "usleep",
