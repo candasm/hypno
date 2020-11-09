@@ -1,7 +1,7 @@
 # Hypno (Delay execution package for PHP)
 ![Image of Hypno](./assets/hypno.gif)
 
-##About
+## About
 Hypno is a wrapper of [PHP delay execution commands](https://www.php.net/manual/en/function.sleep.php) package. 
 
 This package created to write less complex unit test when delaying methods used in the application logic.
