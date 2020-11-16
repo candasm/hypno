@@ -34,14 +34,13 @@ class HypnosisTest extends TestCase
     }
 
     /** @test */
-    public function it_should_delay_half_second()
+    public function it_should_delay_five_hundred_million_nanosecond()
     {
-        $time = microtime();
-        $this->hypnos->nanosleep(0, 500000000);
-        $after = microtime();
-        $time = number_format(explode(' ', $time)[0], 1);
-        $after = number_format(explode(' ', $after)[0], 1);
-        $this->assertEquals(0.5, $time - $after);
+        $time = substr((string)microtime(), 1, 8);
+        $nano = $this->hypnos->nanosleep(0, 500000000);
+        $after = substr((string)microtime(), 1, 8);
+        $this->assertTrue($nano);
+        $this->assertLessThan(0.6, abs($time - $after));
     }
 
     /** @test */
