@@ -1,10 +1,17 @@
-# Hypno (Delay execution package for PHP)
-![Image of Hypno](./assets/hypno.gif)
-
-## About
-Hypno is a wrapper of [PHP delay execution commands](https://www.php.net/manual/en/function.sleep.php) package. 
+<h1 align="center">Hypno (Delay execution package for PHP)</h1>
+Hypno is a wrapper of ![PHP delay execution commands](https://www.php.net/manual/en/function.sleep.php) package. 
 
 This package created to write less complex unit test when delaying methods used in the application logic.
+
+<div align="center">
+
+![Image of Hypno](./assets/hypno.gif)
+
+![Travis (.org)](https://img.shields.io/travis/candasm/hypno)
+[![Coverage Status](https://coveralls.io/repos/github/candasm/hypno/badge.svg?branch=master)](https://coveralls.io/github/candasm/hypno?branch=master)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/candasm/hypno)
+
+</div>
 
 ## Installation
 
